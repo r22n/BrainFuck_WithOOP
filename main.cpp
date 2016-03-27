@@ -15,12 +15,12 @@ int main(int argc, char *argv[]){
 
     try{
         vector<ICommand<int>*> program;
-        BrainFuckInterpreterFactory<int> compiler;
+        BrainFuckInterpreterFactory<int> parser;
 
         string sources;
         cin >> sources;
 
-        compiler.MakeInterpreter(sources,program);
+        parser.MakeInterpreter(sources,program);
 
         for(Context<int> context(100);
             context.GetProgramCounter() < program.size();
