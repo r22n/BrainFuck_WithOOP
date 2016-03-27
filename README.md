@@ -2,10 +2,10 @@
 -sammary<br>
 brainfuck interpreter with object oriented programming for the beginner to train Object Oriented Programming(OOP).<br>
 you can learn the strategy and interpreter, abstract-factory, bridge, etc...<br>
-these source codes was written as the sample for learning OOP, very simple cases.<br>
+these source codes were written as the sample for learning OOP, very simple cases.<br>
 <br>
 -document<br>
-if you want the document, please generate with doxygen, these source codes have the doxygen comment.<br>
+if you want the document, please generate with doxygen, these source codes have the doxygen comments.<br>
 <br>
 -basic structure<br>
 ICommandFactory<T>:<br>
@@ -27,7 +27,7 @@ compiling these source codes with c++ compiler, generate the executable reads th
 4. $<br>
 <br>
 use as library:<br>
-these source codes is consist of c++ template generics classes in header. just you include these the header, you can use interpreter, parser, context.<br>
+these source codes is consist of c++ template generics classes in headers. just you include these headers, you can use interpreter, parser, context.<br>
 <br>
 -note<br>
 we should write the exception by chain-of-responsibility, and print out the bug stack-traces.<br>
