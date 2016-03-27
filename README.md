@@ -5,7 +5,7 @@ you can learn the strategy and interpreter, abstract-factory, bridge, etc...<br>
 these source codes was written as the sample for learning OOP, very simple cases.<br>
 <br>
 -document<br>
-if you want the document, please generate with doxygen, thess source codes has the doxygen comment.<br>
+if you want the document, please generate with doxygen, these source codes have the doxygen comment.<br>
 <br>
 -basic structure<br>
 ICommandFactory<T>:<br>
