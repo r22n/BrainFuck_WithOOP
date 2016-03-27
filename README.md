@@ -30,7 +30,7 @@ use as library:<br>
 these source codes is consist of c++ template generics classes in header. just you include these the header, you can use interpreter, parser, context.<br>
 <br>
 -note<br>
-we should write the exception with chain-of-responsibility, and print out the bug stack-traces.<br>
+we should write the exception by chain-of-responsibility, and print out the bug stack-traces.<br>
 <br>
 -by<br>
 n. ryouta
