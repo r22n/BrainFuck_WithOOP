@@ -21,7 +21,10 @@ public:
      */
     virtual void Execute(IContext<T> *_context) {
         if(!(_context!=NULL))throw "CursorIncrement Execute:context null";
-        _context->SetCursorPointer(_context->GetCursorPointer()+1);
+        int cursor = _context->GetCursorPointer()+1;
+        if(!(0 <= cursor && cursor < _context->GetMemory().size()))throw "CursorIncrement Execute:invalid cursor pointer";
+
+        _context->SetCursorPointer(cursor);
     }
 };
 
