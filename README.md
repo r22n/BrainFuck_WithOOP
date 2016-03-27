@@ -19,7 +19,7 @@ this factory can be registered command factory with brainfuck 1-byte source code
 <br>
 -how to use<br>
 use as executable:<br>
-compiling these source codes with c++ compiler, generate the executable read the source codes from standard input and execute brainfuck.<br>
+compiling these source codes with c++ compiler, generate the executable reads the source codes from standard input and execute brainfuck.<br>
 =for example in linux of fedora. output the character of '$'(Dollar mark)<br>
 1. g++ ./main.cpp -o brainfuck -O3<br>
 2. ./brainfuck<br>
