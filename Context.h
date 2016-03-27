@@ -63,7 +63,7 @@ public:
      * \param _cursor the cursor position
      */
     virtual void SetCursorPointer(int _cursor){
-        if(!(_cursor >= 0)) throw "Context SetCursorPointer: invalid cursor";
+        if(!(0 <= _cursor && _cursor < memory.size())) throw "Context SetCursorPointer: invalid cursor";
         cursor = _cursor;
     }
 
@@ -80,7 +80,7 @@ public:
      * \param _pc the program counter
      */
     virtual void SetProgramCounter(int _pc){
-        if(!(_pc >= 0))throw "Context SetProgramCounter: pc must be bigger equal 0";
+        if(!(_pc >= 0))throw "Context SetProgramCounter: pc must be greater than or equal 0";
         pc = _pc;
     }
     //!get the program counter
