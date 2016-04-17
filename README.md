@@ -1,4 +1,7 @@
 # BrainFuck_WithOOP
+-thank you for cloning<br>
+i hope the person cloning this in 16 april 2016 grow more with OOP !.
+<br>
 -sammary<br>
 brainfuck interpreter with object oriented programming for the beginner to train Object Oriented Programming(OOP).<br>
 you can learn the strategy and interpreter, abstract-factory, bridge, etc...<br>
